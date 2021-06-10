@@ -14,7 +14,7 @@
     <artifactId>k8s-spring-boot-admin</artifactId>
     <version>1.0.0</version>
 
-    <name>clo-spring-boot-admin</name>
+    <name>k8s-spring-boot-admin</name>
 
     <properties>
         <java.version>11</java.version>
