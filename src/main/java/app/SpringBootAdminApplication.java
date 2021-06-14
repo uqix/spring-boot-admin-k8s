@@ -11,10 +11,10 @@ import de.codecentric.boot.admin.server.config.EnableAdminServer;
 @EnableAdminServer
 @EnableDiscoveryClient
 @EnableScheduling
-public class Main {
+public class SpringBootAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Main.class, args);
+        SpringApplication.run(SpringBootAdminApplication.class, args);
     }
 
 }

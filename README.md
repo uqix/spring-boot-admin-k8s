@@ -1,11 +1,11 @@
-# k8s-spring-boot-admin
+# spring-boot-admin-k8s
 
 ## Publish to Docker Hub
 
 ```sh
-cd k8s-spring-boot-admin
+cd spring-boot-admin-k8s
 
-image_name=uqix/k8s-spring-boot-admin:1.0.0
+image_name=uqix/spring-boot-admin-k8s:1.0.13
 pack_builder=gcr.io/paketo-buildpacks/builder:base-platform-api-0.3
 
 # Set proxy for pack on error of pulling from gcr.io
