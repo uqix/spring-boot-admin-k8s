@@ -5,7 +5,7 @@
 ```sh
 cd spring-boot-admin-k8s
 
-image_name=uqix/spring-boot-admin-k8s:1.1.3
+image_name=uqix/spring-boot-admin-k8s:1.1.4
 pack_builder=gcr.io/paketo-buildpacks/builder:base-platform-api-0.3
 
 # Set proxy for pack on error of pulling from gcr.io
